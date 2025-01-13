@@ -1,0 +1,27 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+     <uses-permission android:name="android.permission.CAMERA" />
+     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+     <uses-permission android:name="android.permission.BODY_SENSORS" />
+     <uses-feature android:name="android.hardware.sensor.gyroscope" android:required="true" />
+     <uses-feature android:name="android.hardware.camera.ar" android:required="true" />
+     <uses-feature android:glEsVersion="0x00030000" android:required="true" />
+
+
+    <!-- Indicates that app requires ARCore ("AR Required"). Ensures app is only
+         visible in the Google Play Store on devices that support ARCore.
+    -->
+   
+
+    <!-- Sceneform requires OpenGL ES 3.0 or later. -->
+    
+
+    <application>
+        <!-- Indicates that app requires ARCore ("AR Required"). Causes Google
+             Play Store to download and install ARCore when the app is installed.
+        -->
+        <meta-data android:name="com.google.ar.core" android:value="optional" />
+    </application>
+
+</manifest>
