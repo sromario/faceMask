@@ -2,6 +2,7 @@
 
 A new Flutter project.
 
+projeto conta com uso do Arcore_Flutter_Plugin para implementação de mascaras 3d na face do usuario
 ## Getting Started
 
 This project is a starting point for a Flutter application.
